@@ -1,0 +1,24 @@
+starter/ui/post/PostPage.java
+ starter.ui.post.PostPage
+starter/navigation/PhpTravelsLoginPage.java
+ starter.navigation.PhpTravelsLoginPage
+starter/questions/CreatedItems.java
+ starter.questions.CreatedItems
+starter/ui/blog/BlogPage.java
+ starter.ui.blog.BlogPage
+starter/CucumberTestSuite.java
+ starter.CucumberTestSuite
+starter/tasks/DoNewPost.java
+ starter.tasks.DoNewPost
+starter/ui/dashboard/DashboardPage.java
+ starter.ui.dashboard.DashboardPage
+starter/stepdefinitions/LoginStepDefinitions.java
+ starter.stepdefinitions.LoginStepDefinitions
+starter/tasks/DoBlogCategory.java
+ starter.tasks.DoBlogCategory
+starter/tasks/DoLogin.java
+ starter.tasks.DoLogin
+starter/ui/login/LoginForm.java
+ starter.ui.login.LoginForm
+starter/navigation/NavigateTo.java
+ starter.navigation.NavigateTo

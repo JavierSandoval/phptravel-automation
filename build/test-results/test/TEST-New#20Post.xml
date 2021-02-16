@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="New Post" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-16T17:32:39" hostname="DESARROLLO1" time="46.536">
+  <properties/>
+  <testcase name="Create a new post with a new category" classname="New Post" time="46.536"/>
+  <system-out><![CDATA[Feature: New Post
+
+  Scenario: Create a new post with a new category    ?[90m# src/test/resources/features/login/newpost.feature:3?[0m
+12:32:39.652 [Test worker] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Create a new post with a new category(new-post;create-a-new-post-with-a-new-category)
+-------------------------------------------------------------------
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mJuan?[0m?[32m has an active account?[0m                 ?[90m# LoginStepDefinitions.has_an_active_account(String)?[0m
+12:32:41.923 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+12:32:41.923 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors;\n, --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+    ?[32mWhen ?[0m?[32mhe sends their valid credentials?[0m            ?[90m# LoginStepDefinitions.he_sends_their_valid_credentials()?[0m
+    ?[32mThen ?[0m?[32mhe should have access to the blog page?[0m      ?[90m# LoginStepDefinitions.he_should_have_access_to_the_blog_page()?[0m
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mJuan?[0m?[32m wants create a new blog category?[0m      ?[90m# LoginStepDefinitions.wants_create_a_new_blog_category(String)?[0m
+    ?[32mWhen ?[0m?[32mhe fills all the fields?[0m                     ?[90m# LoginStepDefinitions.he_fills_all_the_fields()?[0m
+    ?[32mThen ?[0m?[32mhe should be find it into the category list?[0m ?[90m# LoginStepDefinitions.he_should_be_find_it_into_the_category_list()?[0m
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mJuan?[0m?[32m wants create a new post?[0m               ?[90m# LoginStepDefinitions.wants_create_a_new_post(String)?[0m
+    ?[32mWhen ?[0m?[32mhe complete all the fields?[0m                  ?[90m# LoginStepDefinitions.he_complete_all_the_fields()?[0m
+    ?[32mThen ?[0m?[32mhe should be find it into the post list?[0m     ?[90m# LoginStepDefinitions.he_should_be_find_it_into_the_post_list()?[0m
+]]></system-out>
+  <system-err><![CDATA[feb 16, 2021 12:32:40 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 8847
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+feb 16, 2021 12:32:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
